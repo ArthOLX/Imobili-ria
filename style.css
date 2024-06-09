@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.first-section {
+    height: 100vh !important;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000000da 100%), url(https://cdn.pixabay.com/photo/2020/08/24/19/27/houses-5514892_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.first-section .logo h2 {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    font-size: 1.4rem;
+}
+
+.first-section .titulo-principal h1 {
+    background: linear-gradient(#ffffff 30%, #6d4655 60%, rgb(95, 52, 63)75%, #3a0214 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem;
+    color: #fffdf9;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.2rem;
+    line-height: 4rem;
+
+}
+
+.first-section .titulo-principal span {
+    font-size: 5rem;
+}
+
+.first-section .btn button {
+    padding: 5px 50px;
+    margin: 0 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    border: 3px solid transparent;
+    background-color: #f2efe8;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.first-section .btn button:hover {
+    border: 3px solid transparent;
+    background-color: #bbb5a7;
+}
+
+.second-section {
+    height: 100vh;
+    background-color: #f2efe8;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.second-section .img-um img {
+    width: 720px;
+    height: 520px;
+
+}
+
+.second-section .texto h2 {
+    margin-right: 90px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 430;
+    font-size: 2.9rem;
+    letter-spacing: 0.1rem;
+    color: #342b17;
+    flex-direction: column;
+}
+
+.second-section .texto .segundo-span {
+    font-size: 4rem;
+}
+
+.second-section .second-btn button {
+    padding: 8px 60px;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    border: 3px solid transparent;
+    background-color: #461f27;
+    color: #f2efe8;
+    transition: all .3s;
+    cursor: pointer;
+
+}
+
+.second-section .second-btn button:hover {
+    border: 3px solid transparent;
+    background-color: #4b252c;
+    transform: scale(0.93);
+}
+
+.third-section {
+    height: 100vh;
+    width: 100%;
+}
+
+.third-section .titulo-third-section {
+    width: 33%;
+}
+
+.third-section .titulo-third-section h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 2.8rem;
+    letter-spacing: 0.1rem;
+    margin-top: 80px;
+    margin-left: 132px;
+    color: #461f27;
+    border-bottom: 3px solid;
+    width: 75%;
+}
+
+.third-section .imoveis {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.third-section .imoveis .img-casa-terrea {
+    width: 450px;
+    height: 351px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.third-section .imoveis .img-sobrado {
+    width: 459px;
+    height: 360px;
+    margin-top: 23px;
+    border-radius: 20px;
+
+}
+
+.third-section .imoveis .mansao {
+    width: 430px;
+    height: 380px;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 23px;
+}
+
+.third-section .imoveis h3 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 2.2rem;
+    margin-top: 20px;
+    color: #bbb5a7;
+}
+
+.third-section .imoveis p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    line-height: 2.2rem;
+    margin-bottom: 20px;
+    color: #342b17bd;
+
+}
+
+.third-section .imoveis span {
+    border: 1px solid;
+    padding: 11px;
+    border-radius: 20px;
+    font-size: 0.86rem;
+    font-weight: 400;
+    margin: 0 10px;
+}
+
+.third-section .imoveis h4 {
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    color: #444036;
+}
+
+.quarta-section {
+    display: flex;
+    background: #f2efe8;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    gap: 20%;
+
+}
+
+.quarta-section .img-fale-conosco h3 {
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 370;
+    font-size: 2.2rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 40px;
+    border-bottom: 3px solid;
+}
+
+.quarta-section .img-fale-conosco {
+    margin: 80px 0;
+}
+
+.quarta-section .img-fale-conosco img {
+    height: 600px;
+
+}
+
+.quarta-section .fale-conosco {
+    margin-bottom: 60px;
+}
+
+.quarta-section .titulo-fale-conosco {
+
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    font-weight: 370;
+}
+
+.quarta-section .fale-conosco .paragrafo-fale-conosco {
+    font-family: "Poppins", sans-serif;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.quarta-section .atendimento h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    font-weight: 370;
+}
+
+.quarta-section .atendimento .titulo-atendimento {
+    font-family: "Poppins", sans-serif;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+
+.quarta-section .atendimento .titulo-atendimento-dois {
+    font-family: "Poppins", sans-serif;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.quarta-section .paragrafo-atendimento {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+}
+
+.quarta-section .paragrafo-atendimento-dois {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+}
+
+
+@media screen and (max-width: 480px) {
+    .first-section {
+        display: block;
+        align-items: center;
+        background-attachment: scroll;
+        height: 50vh;
+
+    }
+
+    .first-section .titulo-principal h1 {
+        width: 96vw;
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        letter-spacing: 0.1rem;
+        text-align: center;
+        margin: 0px auto;
+        margin-top: 50%;
+    }
+
+    .first-section .btn {
+        padding: 0px;
+        margin-top: 50px;
+    }
+
+    .second-section {
+        display: block;
+        height: 100vh;
+    }
+
+
+    .second-section .img-um {
+        text-align: center;
+
+    }
+
+    .second-section .img-um img {
+        width: 80vw;
+        height: 30vh;
+        margin: 2em 2em;
+        margin-top: 25%;
+
+    }
+
+    .second-section .texto {
+        text-align: center;
+    }
+
+    .second-section .texto h2 {
+        width: 80vw;
+        margin: 0 auto;
+        font-size: 1.3rem;
+        line-height: 2rem;
+
+    }
+
+    .second-section .texto .segundo-span {
+        font-size: 2.5rem;
+    }
+
+    .third-section {
+        height: 220vh;
+        margin-bottom: 20em;
+    }
+
+    .third-section .titulo-third-section h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin: 2em 2.6em;
+        width: 60vw;
+    }
+
+    .third-section .imoveis {
+        display: block;
+        text-align: center;
+    }
+
+    .third-section .imoveis .casa-terrea {
+        margin-bottom: 5em;
+    }
+
+    .third-section .imoveis .casa-terrea .img-casa-terrea {
+        width: 90vw;
+        height: 40vh;
+    }
+
+    .third-section .imoveis .sobrado {
+        margin-bottom: 5em;
+    }
+
+    .third-section .imoveis .sobrado .img-sobrado {
+        width: 90vw;
+        height: 38vh;
+    }
+
+    .third-section .imoveis .casa-independente {
+        margin-bottom: 100em;
+    }
+
+    .third-section .imoveis .casa-independente .mansao {
+        width: 87vw;
+        height: 40vh;
+    }
+
+    .quarta-section {
+        display: block;
+        text-align: center;
+        height: 154vh;
+    }
+
+
+    .quarta-section .img-fale-conosco h3 {
+        width: 80vw;
+      padding-top: 100px;
+       margin-bottom: 0;
+       margin: 0 auto;
+    }
+
+    .quarta-section .img-fale-conosco img {
+        width: 60vw;
+        height: 48vh;
+        margin-top: 80px;
+    }
+
+    .quarta-section .ultima-parte .fale-conosco .titulo-fale-conosco{
+        font-size: 2.1rem;
+    }
+
+    .quarta-section .ultima-parte .fale-conosco .paragrafo-fale-conosco{
+        font-size:1rem ;
+    }
+
+    .quarta-section .ultima-parte .atendimento h2{
+        font-size: 2.1rem;
+    }
+
+    .quarta-section .ultima-parte .atendimento .titulo-atendimento{
+        font-size: 1rem;
+    }
+
+    .quarta-section .ultima-parte .atendimento .paragrafo-atendimento{
+        font-size:1rem;
+    }
+
+    .quarta-section .ultima-parte .atendimento .titulo-atendimento-dois{
+        font-size: 1rem;
+    }
+
+    .quarta-section .ultima-parte .atendimento .paragrafo-atendimento-dois{
+        font-size:1rem;
+    }
+
+
+}
